@@ -1,0 +1,41 @@
+=============== Jan 25, 2021 (CST) ===============
+20:24:01.051810 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:24:01.077286 db@open opening
+20:24:01.092335 version@stat F·[] S·0B[] Sc·[]
+20:24:01.100458 db@janitor F·2 G·0
+20:24:01.103672 db@open done T·24.479635ms
+20:24:01.464195 db@close closing
+20:24:01.464300 db@close done T·103.68µs
+=============== Jan 25, 2021 (CST) ===============
+20:25:10.476340 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:25:10.477021 version@stat F·[] S·0B[] Sc·[]
+20:25:10.477063 db@open opening
+20:25:10.477160 journal@recovery F·1
+20:25:10.486300 journal@recovery recovering @1
+20:25:10.557203 memdb@flush created L0@2 N·21260 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+20:25:10.570655 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+20:25:10.604257 db@janitor F·3 G·0
+20:25:10.604330 db@open done T·127.222222ms
+20:25:10.714757 db@close closing
+20:25:10.714948 reference loop already exist
+20:25:10.714950 db@close done T·184.941µs
+=============== Jan 25, 2021 (CST) ===============
+20:25:15.247077 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:25:15.247313 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+20:25:15.247347 db@open opening
+20:25:15.247431 journal@recovery F·1
+20:25:15.255949 journal@recovery recovering @3
+20:25:15.263769 memdb@flush created L0@5 N·1 S·507B "eth..ˏ\xa3,v21262":"eth..ˏ\xa3,v21262"
+20:25:15.277813 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+20:25:15.306878 db@janitor F·4 G·0
+20:25:15.306924 db@open done T·59.564013ms
+=============== Jan 25, 2021 (CST) ===============
+20:27:33.430549 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:27:33.431202 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+20:27:33.431241 db@open opening
+20:27:33.431336 journal@recovery F·1
+20:27:33.440159 journal@recovery recovering @6
+20:27:33.449612 memdb@flush created L0@8 N·1 S·507B "eth..ˏ\xa3,v21264":"eth..ˏ\xa3,v21264"
+20:27:33.462420 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+20:27:33.494365 db@janitor F·5 G·0
+20:27:33.494434 db@open done T·63.173476ms
